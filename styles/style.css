@@ -1,0 +1,24 @@
+@charset "utf-8";
+body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 4% 8% 0;
+    font-size: 14px;
+}
+
+img {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 20px;
+}
+
+input {
+    border: 1px solid #000000;
+    border-radius: 20%;
+    margin: 10px 0;
+    height: 36px;
+
+    @media screen and (max-width: 680px) {
+        font-size: 8px;
+    }
+}
